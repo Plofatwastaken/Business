@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <Crown className="h-8 w-8 text-yellow-400" />
-              <span className="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">
+              <span className="text-2xl font-bold bg-linear-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">
                 LuxeMarket
               </span>
             </Link>

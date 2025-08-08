@@ -6,7 +6,7 @@ import Newsletter from "@/components/Newsletter"
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900">
+    <main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900">
       <Hero />
       <FeaturedProducts />
       <CategoryShowcase />

@@ -60,7 +60,7 @@ export default function Hero() {
             className="absolute inset-0 bg-cover bg-center parallax-bg"
             style={{ backgroundImage: `url(${slide.image})` }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-r from-slate-950/90 via-slate-900/70 to-transparent" />
         </div>
       ))}
 
@@ -74,7 +74,7 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              <span className="bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
                 {heroSlides[currentSlide].title}
               </span>
             </h1>

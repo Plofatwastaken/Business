@@ -19,7 +19,7 @@ export default function CategoryCard({ category }: CategoryCardProps) {
   return (
     <Link
       href={`/categories/${category.id}`}
-      className="group relative overflow-hidden rounded-2xl aspect-[4/5] glass-card hover:scale-105 transition-all duration-500 shadow-lg hover:shadow-2xl"
+      className="group relative overflow-hidden rounded-2xl aspect-4/5 glass-card hover:scale-105 transition-all duration-500 shadow-lg hover:shadow-2xl"
     >
       <Image
         src={category.image || "/placeholder.svg"}
@@ -28,9 +28,9 @@ export default function CategoryCard({ category }: CategoryCardProps) {
         className="object-cover transition-all duration-700 group-hover:scale-110"
       />
       <div
-        className={`absolute inset-0 bg-gradient-to-t ${category.gradient} opacity-60 group-hover:opacity-70 transition-opacity`}
+        className={`absolute inset-0 bg-linear-to-t ${category.gradient} opacity-60 group-hover:opacity-70 transition-opacity`}
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent" />
 
       {/* Product Count Badge */}
       <div className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm rounded-full px-3 py-1 flex items-center space-x-1">

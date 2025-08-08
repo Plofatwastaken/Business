@@ -95,7 +95,7 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
 
 	if (loading) {
 		return (
-			<main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 pt-24">
+			<main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900 pt-24">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<LoadingSpinner />
 				</div>
@@ -105,7 +105,7 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
 
 	if (error || !data) {
 		return (
-			<main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 pt-24">
+			<main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900 pt-24">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
 					<p className="text-red-400">Error: {error || "Category not found"}</p>
 				</div>
@@ -116,7 +116,7 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
 	const { category, products, pagination } = data
 
 	return (
-		<main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 pt-24">
+		<main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900 pt-24">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 				{/* Breadcrumb */}
 				<BreadcrumbNav items={[{ label: "Categories", href: "/" }, { label: category.name }]} />
@@ -124,7 +124,7 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
 				{/* Category Header */}
 				<div className="text-center mb-16">
 					<h1 className="text-3xl md:text-6xl font-bold mb-6">
-						<span className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
+						<span className="bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
 							{category.name}
 						</span>
 					</h1>

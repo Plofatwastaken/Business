@@ -65,9 +65,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group flex-shrink-0">
+          <Link href="/" className="flex items-center space-x-2 group shrink-0">
             <Crown className="h-8 w-8 text-yellow-400 group-hover:text-yellow-300 transition-colors" />
-            <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">
+            <span className="text-xl md:text-2xl font-bold bg-linear-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">
               LuxeMarket
             </span>
           </Link>
@@ -116,7 +116,7 @@ export default function Navbar() {
                         onClick={() => handleSuggestionClick(suggestion)}
                         className="w-full px-4 py-3 text-left text-white hover:bg-white/10 transition-colors flex items-center space-x-3"
                       >
-                        <Search className="h-4 w-4 text-slate-400 flex-shrink-0" />
+                        <Search className="h-4 w-4 text-slate-400 shrink-0" />
                         <div className="flex-1 min-w-0">
                           <span className="block truncate">{suggestion.text}</span>
                           {suggestion.type !== "product" && (
