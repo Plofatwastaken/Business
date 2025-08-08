@@ -1,0 +1,363 @@
+[
+  {
+    "id": "1",
+    "name": "PULUZ One-Trigger-Two Wireless Microphone Clip-on Mic",
+    "price": 12446,
+    "originalPrice": 22066,
+    "rating": 4.9,
+    "reviews": 27,
+    "image": "https://ibb.co/9kBLf9Z2",
+    "images": [
+      "https://ibb.co/GvD2PsGx",
+      "https://ibb.co/HWbkXxp",
+      "https://ibb.co/21vfTbPC",
+      "https://ibb.co/21vfTbPC"
+    
+    ],
+    "category": "electronics",
+    "affiliateUrl": "https://s.daraz.lk/s.n2zW?cc",
+    "badge": "PayDay Sale",
+    "description": "Elevate your audio game with the PULUZ One-Trigger-Two Wireless Microphone, designed for content creators, vloggers, interviewers, educators, and anyone who demands professional sound quality. This dual wireless clip-on mic system allows two people to record simultaneously — perfect for interviews, podcasts, or collaborative recordings.",
+    "features": [
+      "Versatile Wi-reles-s Microphone System",
+      "Universal Compatibility for Various Devices",
+      "Advanced Intelligent Noise Reduction",
+      "360° Omnidirectional Pickup",
+      "Extended Battery Life for Continuous Use"
+    ],
+    "specifications": {
+      "Distance": "10-meter barrier-free transmission",
+      "Connectivity": "10-meter barrier-free transmission",
+      "Noise cancelling": "built-in noise reduction chip with strong anti-interference capabilities",
+      "Quality": "360° Omnidirectional Pickup",
+      "Battery": "300mAh lithium battery"
+    },
+    "tags": ["wireless", "bluetooth", "noise-cancelling", "premium", "mic"],
+    "inStock": true,
+    "brand": "No Brand",
+    "colors": ["Black", "Silver", "Rose Gold"]
+  },
+  {
+    "id": "2",
+    "name": "Luxury Silk Scarf Collection",
+    "price": 189.99,
+    "rating": 4.9,
+    "reviews": 892,
+    "image": "/placeholder.svg?height=400&width=400&text=Silk+Scarf",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Scarf+Front",
+      "/placeholder.svg?height=600&width=600&text=Pattern+Detail",
+      "/placeholder.svg?height=600&width=600&text=Texture+Close",
+      "/placeholder.svg?height=600&width=600&text=Styled+Look"
+    ],
+    "category": "fashion",
+    "affiliateUrl": "https://example.com/affiliate/scarf",
+    "description": "Exquisite handcrafted silk scarves featuring exclusive patterns and premium materials. Perfect for adding elegance to any outfit.",
+    "features": [
+      "100% Pure Mulberry Silk",
+      "Hand-rolled edges",
+      "Exclusive designer patterns",
+      "Lightweight and breathable",
+      "Versatile styling options"
+    ],
+    "specifications": {
+      "Material": "100% Mulberry Silk",
+      "Dimensions": "90cm x 90cm",
+      "Weight": "45g",
+      "Care": "Dry clean only",
+      "Origin": "Made in Italy"
+    },
+    "tags": ["silk", "luxury", "fashion", "accessories", "designer"],
+    "inStock": true,
+    "brand": "Milano Silk",
+    "colors": ["Emerald", "Navy", "Burgundy", "Gold"]
+  },
+  {
+    "id": "3",
+    "name": "Smart Home Security System",
+    "price": 449.99,
+    "originalPrice": 599.99,
+    "rating": 4.7,
+    "reviews": 2156,
+    "image": "/placeholder.svg?height=400&width=400&text=Security+System",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Main+Hub",
+      "/placeholder.svg?height=600&width=600&text=Camera+View",
+      "/placeholder.svg?height=600&width=600&text=Sensor+Detail",
+      "/placeholder.svg?height=600&width=600&text=App+Interface",
+      "/placeholder.svg?height=600&width=600&text=Installation"
+    ],
+    "category": "electronics",
+    "affiliateUrl": "https://example.com/affiliate/security",
+    "badge": "New",
+    "description": "Complete smart home security solution with AI-powered detection, 4K cameras, and 24/7 monitoring capabilities.",
+    "features": [
+      "4K Ultra HD cameras",
+      "AI-powered motion detection",
+      "24/7 cloud recording",
+      "Mobile app control",
+      "Professional monitoring"
+    ],
+    "specifications": {
+      "Camera Resolution": "4K Ultra HD",
+      "Storage": "Cloud + Local",
+      "Connectivity": "Wi-Fi 6, Ethernet",
+      "Power": "PoE + Battery backup",
+      "Compatibility": "iOS, Android"
+    },
+    "tags": ["security", "smart-home", "cameras", "monitoring", "ai"],
+    "inStock": true,
+    "brand": "SecureHome",
+    "colors": ["White", "Black"]
+  },
+  {
+    "id": "4",
+    "name": "Artisan Coffee Maker Pro",
+    "price": 329.99,
+    "rating": 4.6,
+    "reviews": 743,
+    "image": "/placeholder.svg?height=400&width=400&text=Coffee+Maker",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Coffee+Maker",
+      "/placeholder.svg?height=600&width=600&text=Brewing+Process",
+      "/placeholder.svg?height=600&width=600&text=Control+Panel",
+      "/placeholder.svg?height=600&width=600&text=Coffee+Cup"
+    ],
+    "category": "home",
+    "affiliateUrl": "https://example.com/affiliate/coffee",
+    "description": "Professional-grade coffee maker with precision temperature control and multiple brewing methods for the perfect cup.",
+    "features": [
+      "Precision temperature control",
+      "Multiple brewing methods",
+      "Built-in grinder",
+      "Programmable settings",
+      "Premium stainless steel"
+    ],
+    "specifications": {
+      "Capacity": "12 cups",
+      "Power": "1400W",
+      "Material": "Stainless Steel",
+      "Dimensions": "14\" x 10\" x 16\"",
+      "Warranty": "2 years"
+    },
+    "tags": ["coffee", "brewing", "kitchen", "appliance", "premium"],
+    "inStock": true,
+    "brand": "BrewMaster",
+    "colors": ["Stainless Steel", "Black"]
+  },
+  {
+    "id": "5",
+    "name": "Designer Sunglasses Elite",
+    "price": 249.99,
+    "originalPrice": 349.99,
+    "rating": 4.5,
+    "reviews": 567,
+    "image": "/placeholder.svg?height=400&width=400&text=Sunglasses",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Sunglasses+Front",
+      "/placeholder.svg?height=600&width=600&text=Side+Profile",
+      "/placeholder.svg?height=600&width=600&text=Lens+Detail",
+      "/placeholder.svg?height=600&width=600&text=Case+Included"
+    ],
+    "category": "fashion",
+    "affiliateUrl": "https://example.com/affiliate/sunglasses",
+    "description": "Premium designer sunglasses with polarized lenses and titanium frames for ultimate style and protection.",
+    "features": [
+      "Polarized UV400 lenses",
+      "Titanium frame construction",
+      "Anti-reflective coating",
+      "Lightweight design",
+      "Premium leather case included"
+    ],
+    "specifications": {
+      "Frame Material": "Titanium",
+      "Lens Material": "Polarized Glass",
+      "UV Protection": "100% UV400",
+      "Weight": "28g",
+      "Warranty": "Lifetime"
+    },
+    "tags": ["sunglasses", "designer", "polarized", "titanium", "luxury"],
+    "inStock": true,
+    "brand": "VisionLux",
+    "colors": ["Black", "Tortoise", "Silver"]
+  },
+  {
+    "id": "6",
+    "name": "Bluetooth Speaker Premium",
+    "price": 199.99,
+    "rating": 4.4,
+    "reviews": 1089,
+    "image": "/placeholder.svg?height=400&width=400&text=Speaker",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Speaker+Front",
+      "/placeholder.svg?height=600&width=600&text=Speaker+Back",
+      "/placeholder.svg?height=600&width=600&text=Controls",
+      "/placeholder.svg?height=600&width=600&text=Waterproof"
+    ],
+    "category": "electronics",
+    "affiliateUrl": "https://example.com/affiliate/speaker",
+    "description": "High-fidelity Bluetooth speaker with 360-degree sound, waterproof design, and 20-hour battery life.",
+    "features": [
+      "360-degree surround sound",
+      "Waterproof IPX7 rating",
+      "20-hour battery life",
+      "Voice assistant compatible",
+      "Premium fabric finish"
+    ],
+    "specifications": {
+      "Power Output": "40W",
+      "Battery Life": "20 hours",
+      "Connectivity": "Bluetooth 5.0",
+      "Water Resistance": "IPX7",
+      "Dimensions": "8\" x 3\" x 3\""
+    },
+    "tags": ["bluetooth", "speaker", "waterproof", "portable", "audio"],
+    "inStock": true,
+    "brand": "SoundWave",
+    "colors": ["Black", "Blue", "Red"]
+  },
+  {
+    "id": "7",
+    "name": "Leather Handbag Luxury",
+    "price": 399.99,
+    "originalPrice": 549.99,
+    "rating": 4.8,
+    "reviews": 432,
+    "image": "/placeholder.svg?height=400&width=400&text=Handbag",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Handbag+Front",
+      "/placeholder.svg?height=600&width=600&text=Interior+View",
+      "/placeholder.svg?height=600&width=600&text=Handle+Detail",
+      "/placeholder.svg?height=600&width=600&text=Styled+Look"
+    ],
+    "category": "fashion",
+    "affiliateUrl": "https://example.com/affiliate/handbag",
+    "badge": "Limited Edition",
+    "description": "Handcrafted luxury leather handbag with premium hardware and timeless design. Perfect for any occasion.",
+    "features": [
+      "Genuine Italian leather",
+      "Gold-plated hardware",
+      "Multiple compartments",
+      "Adjustable strap",
+      "Handcrafted construction"
+    ],
+    "specifications": {
+      "Material": "Italian Leather",
+      "Dimensions": "12\" x 8\" x 4\"",
+      "Hardware": "Gold-plated",
+      "Lining": "Silk",
+      "Care": "Leather conditioner recommended"
+    },
+    "tags": ["handbag", "leather", "luxury", "italian", "designer"],
+    "inStock": true,
+    "brand": "LuxeBags",
+    "colors": ["Black", "Brown", "Tan"]
+  },
+  {
+    "id": "8",
+    "name": "Skincare Set Premium",
+    "price": 159.99,
+    "rating": 4.7,
+    "reviews": 823,
+    "image": "/placeholder.svg?height=400&width=400&text=Skincare+Set",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Complete+Set",
+      "/placeholder.svg?height=600&width=600&text=Cleanser",
+      "/placeholder.svg?height=600&width=600&text=Serum",
+      "/placeholder.svg?height=600&width=600&text=Moisturizer"
+    ],
+    "category": "beauty",
+    "affiliateUrl": "https://example.com/affiliate/skincare",
+    "description": "Complete luxury skincare routine with organic ingredients and clinically proven results for radiant skin.",
+    "features": [
+      "Organic ingredients",
+      "Clinically tested",
+      "Anti-aging formula",
+      "Suitable for all skin types",
+      "Cruelty-free"
+    ],
+    "specifications": {
+      "Set Includes": "Cleanser, Serum, Moisturizer, Eye Cream",
+      "Skin Type": "All types",
+      "Key Ingredients": "Hyaluronic Acid, Vitamin C, Retinol",
+      "Volume": "Full size products",
+      "Certification": "Organic, Cruelty-free"
+    },
+    "tags": ["skincare", "organic", "anti-aging", "beauty", "luxury"],
+    "inStock": true,
+    "brand": "GlowLux",
+    "colors": ["N/A"]
+  },
+  {
+    "id": "9",
+    "name": "Smart Watch Elite",
+    "price": 399.99,
+    "originalPrice": 499.99,
+    "rating": 4.6,
+    "reviews": 1543,
+    "image": "/placeholder.svg?height=400&width=400&text=Smart+Watch",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Watch+Face",
+      "/placeholder.svg?height=600&width=600&text=Side+View",
+      "/placeholder.svg?height=600&width=600&text=Band+Detail",
+      "/placeholder.svg?height=600&width=600&text=App+Interface"
+    ],
+    "category": "electronics",
+    "affiliateUrl": "https://example.com/affiliate/smartwatch",
+    "badge": "Trending",
+    "description": "Advanced smartwatch with health monitoring, GPS tracking, and premium materials for the modern lifestyle.",
+    "features": [
+      "Health & fitness tracking",
+      "Built-in GPS",
+      "Water resistant",
+      "7-day battery life",
+      "Premium titanium case"
+    ],
+    "specifications": {
+      "Display": "1.4\" AMOLED",
+      "Battery Life": "7 days",
+      "Water Resistance": "50m",
+      "Connectivity": "Bluetooth, Wi-Fi, LTE",
+      "Sensors": "Heart rate, GPS, Accelerometer"
+    },
+    "tags": ["smartwatch", "fitness", "gps", "health", "premium"],
+    "inStock": true,
+    "brand": "TechLux",
+    "colors": ["Space Gray", "Silver", "Gold"]
+  },
+  {
+    "id": "10",
+    "name": "Luxury Perfume Collection",
+    "price": 129.99,
+    "rating": 4.9,
+    "reviews": 678,
+    "image": "/placeholder.svg?height=400&width=400&text=Perfume",
+    "images": [
+      "/placeholder.svg?height=600&width=600&text=Perfume+Bottle",
+      "/placeholder.svg?height=600&width=600&text=Collection+Set",
+      "/placeholder.svg?height=600&width=600&text=Packaging",
+      "/placeholder.svg?height=600&width=600&text=Spray+Detail"
+    ],
+    "category": "beauty",
+    "affiliateUrl": "https://example.com/affiliate/perfume",
+    "description": "Exquisite fragrance collection with rare ingredients and sophisticated scent profiles for the discerning individual.",
+    "features": [
+      "Premium fragrance oils",
+      "Long-lasting formula",
+      "Elegant glass bottle",
+      "Gift-ready packaging",
+      "Unisex appeal"
+    ],
+    "specifications": {
+      "Volume": "50ml",
+      "Fragrance Type": "Eau de Parfum",
+      "Top Notes": "Bergamot, Lemon",
+      "Heart Notes": "Rose, Jasmine",
+      "Base Notes": "Sandalwood, Musk"
+    },
+    "tags": ["perfume", "fragrance", "luxury", "unisex", "premium"],
+    "inStock": true,
+    "brand": "Essence Luxe",
+    "colors": ["N/A"]
+  }
+]
