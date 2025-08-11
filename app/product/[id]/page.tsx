@@ -33,7 +33,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 
 	if (loading) {
 		return (
-			<main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 pt-24">
+			<main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900 pt-24">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 					<LoadingSpinner />
 				</div>
@@ -50,7 +50,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 		: 0
 
 	return (
-		<main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 pt-24">
+		<main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900 pt-24">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
 				{/* Breadcrumb */}
 				<BreadcrumbNav
@@ -151,7 +151,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 
 							{/* Badge */}
 							{product.badge && (
-								<div className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold mb-4">
+								<div className="inline-block bg-linear-to-r from-red-500 to-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold mb-4">
 									{product.badge}
 								</div>
 							)}
@@ -182,7 +182,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 								<ul className="space-y-2">
 									{product.features.map((feature, index) => (
 										<li key={index} className="flex items-center space-x-3 text-slate-300 text-sm md:text-base">
-											<div className="w-2 h-2 bg-yellow-400 rounded-full flex-shrink-0" />
+											<div className="w-2 h-2 bg-yellow-400 rounded-full shrink-0" />
 											<span>{feature}</span>
 										</li>
 									))}
@@ -313,7 +313,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 									<button
 										key={index}
 										onClick={() => setSelectedImage(index)}
-										className={`flex-shrink-0 w-16 h-16 relative overflow-hidden rounded-lg border-2 transition-all ${selectedImage === index ? "border-yellow-400" : "border-white/30 hover:border-white/60"
+										className={`shrink-0 w-16 h-16 relative overflow-hidden rounded-lg border-2 transition-all ${selectedImage === index ? "border-yellow-400" : "border-white/30 hover:border-white/60"
 											}`}
 									>
 										<Image

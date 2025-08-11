@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <Crown className="h-8 w-8 text-yellow-400" />
-              <span className="text-2xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">
+              <span className="text-2xl font-bold bg-linear-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">
                 LuxeMarket
               </span>
             </Link>
@@ -66,7 +66,11 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-slate-400">
                 <Mail className="h-5 w-5 text-yellow-400" />
+<<<<<<< HEAD
                 <span>luxafmarketing@gmail</span>
+=======
+                <span>luxafmarketing@gmail.com</span>
+>>>>>>> e4e0991754c549de1a91e62a31e99727dd1c648d
               </div>
               <div className="flex items-center space-x-3 text-slate-400">
                 <Phone className="h-5 w-5 text-yellow-400" />

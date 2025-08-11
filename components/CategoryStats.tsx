@@ -124,7 +124,7 @@ export default function CategoryStats() {
                 {/* Visual bar for product count */}
                 <div className="mt-3 bg-slate-700 rounded-full h-2 overflow-hidden">
                   <div
-                    className="h-full bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full transition-all duration-1000"
+                    className="h-full bg-linear-to-r from-yellow-400 to-yellow-500 rounded-full transition-all duration-1000"
                     style={{
                       width: `${(category.count / Math.max(...stats.categoryStats.map((c) => c.count))) * 100}%`,
                     }}

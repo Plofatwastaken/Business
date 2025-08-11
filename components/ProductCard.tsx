@@ -35,7 +35,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 		<div className="group relative glass-card p-6 hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-400/20">
 			{/* Badge */}
 			{product.badge && (
-				<div className="absolute top-4 left-4 z-10 bg-gradient-to-r from-red-500 to-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+				<div className="absolute top-4 left-4 z-10 bg-linear-to-r from-red-500 to-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
 					{product.badge}
 				</div>
 			)}

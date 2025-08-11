@@ -54,7 +54,7 @@ function SearchContent() {
 
   if (loading) {
     return (
-      <main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 pt-24">
+      <main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900 pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <LoadingSpinner />
         </div>
@@ -64,7 +64,7 @@ function SearchContent() {
 
   if (error) {
     return (
-      <main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 pt-24">
+      <main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900 pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
           <p className="text-red-400">Error: {error}</p>
         </div>
@@ -75,7 +75,7 @@ function SearchContent() {
   const { products, pagination } = data || { products: [], pagination: null }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 pt-24">
+    <main className="min-h-screen bg-linear-to-b from-slate-950 to-slate-900 pt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Search Header */}
         <div className="mb-8">
@@ -95,7 +95,7 @@ function SearchContent() {
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}
-          <div className="lg:w-64 flex-shrink-0">
+          <div className="lg:w-64 shrink-0">
             <div className="glass-card p-4 md:p-6 rounded-2xl sticky top-24">
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-lg md:text-xl font-semibold text-white">Filters</h2>
