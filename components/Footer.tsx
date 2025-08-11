@@ -66,22 +66,22 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-slate-400">
                 <Mail className="h-5 w-5 text-yellow-400" />
-                <span>hello@luxemarket.com</span>
+                <span>luxafmarketing@gmail</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-400">
                 <Phone className="h-5 w-5 text-yellow-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+94 788404801</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-400">
                 <MapPin className="h-5 w-5 text-yellow-400" />
-                <span>New York, NY</span>
+                <span>Colombo, SL</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-slate-400">
-          <p>&copy; 2024 LuxeMarket. All rights reserved. Crafted with excellence.</p>
+          <p>&copy; 2025 LuxeMarket. All rights reserved. Crafted with excellence.</p>
         </div>
       </div>
     </footer>
